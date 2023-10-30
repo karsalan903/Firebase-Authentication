@@ -1,0 +1,47 @@
+.field a{
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    background: linear-gradient(-135deg, #c850c0, #4158d0);
+    transition: all 0.3s ease;
+}
+
+.field a:active{
+    transform: scale(0.95);
+}
+
+.field a{
+    height: 100%;
+    width: 20%;
+    outline: none;
+    text-decoration: none;
+    padding: 20px 50px 45px 90px;
+    border: 1px solid lightgrey;
+    border-radius: 40px;
+    transition: all 0.3s ease;
+  }
+
+  .field div{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    height: 50px;
+  }
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.text {
+    font-size: 50px;
+}
+
+.comment {
+    text-align: center;
+}
